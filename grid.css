@@ -1,0 +1,54 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  card-sizing: border-card;
+}
+
+body {
+  background-color: black;
+  padding: 2rem 3rem;
+}
+
+.container {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(6, 1fr);
+  height: 600px;
+  width: 70%;
+}
+
+.card p {
+  display: none;
+}
+
+.card1 {
+  background-color: gold;
+  grid-row: 1/9;
+  grid-column: 1/5;
+}
+
+.card2 {
+  background-color: red;
+  grid-column: 5/-1;
+  grid-row: 1/9;
+}
+
+.card3 {
+  background-color: brown;
+  grid-column: 1/4;
+  grid-row: 9/18;
+}
+
+.card4 {
+  background-color: purple;
+  grid-column: 4/-1;
+  grid-row: 9/13;
+}
+
+.card5 {
+  background-color: purple;
+  grid-column: 4/-1;
+  grid-row: 13/18;
+}
