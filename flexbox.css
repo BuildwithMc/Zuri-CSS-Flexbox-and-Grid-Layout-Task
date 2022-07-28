@@ -98,3 +98,22 @@ h2 {
 
 /* reponsive behaviour */
 
+@media screen and (max-width: 1324px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sedans-cars {
+        border-radius: .5rem .5rem 0 0;
+    }
+
+    .luxury-cars {
+        border-radius: 0 0 .5rem .5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+}
