@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 3rem 0;
+}
+
+/* grid task */
+
+.grid-task {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color:brown;
+}
+
+.grid-task:hover {
+    color: green;
+    text-decoration: underline !important;
+}
+
+/* flexbox section */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container > div {
+    padding: 3rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background-color: hsl(0, 0%, 95%);
+    border: .1rem solid hsl(0, 0%, 95%);
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+a:hover, a:active {
+    opacity: 0.6;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    margin: 2rem 0 5rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+}
+
+/* cars */
+
+.sedans-cars {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: .5rem 0 0 .5rem;
+}
+
+.sedans-cars a {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs-cars {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs-cars a {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury-cars {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 .5rem .5rem 0;
+}
+
+.luxury-cars a {
+    color: hsl(179, 100%, 13%);
+}
+
+/* reponsive behaviour */
+
